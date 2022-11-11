@@ -1,0 +1,21 @@
+{
+    "name": "scanelec/t3dev",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://t3dev.scanelec.org/",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scanelec\\T3dev\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3dev"
+        }
+    }
+}
